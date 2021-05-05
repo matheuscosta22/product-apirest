@@ -60,10 +60,6 @@
 			<artifactId>springfox-swagger-ui</artifactId> 
 			<version>2.9.2</version>
 		</dependency>
-		<dependency>
-			<maven.compiler.source>1.8</maven.compiler.source>
-			<maven.compiler.target>1.8</maven.compiler.target>
-		</dependency>
 	</dependencies>
 
 	<build>
