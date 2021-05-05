@@ -22,7 +22,7 @@ public class SwaggerConfig {
   public Docket apiProuct(){
       return new Docket(DocumentationType.SWAGGER_2)
         .select()
-        .apis(RequestHandlerSelectors.basePackage("package com.products.products"))
+        .apis(RequestHandlerSelectors.basePackage("com.products.products"))
         .paths(regex("/api.*"))
         .build()
         .apiInfo(metaInfo());
